@@ -81,6 +81,7 @@ Iterative Refinement (if needed)
 ---
 
 ## 📂 Project Structure
+
 astraeus-ai/
 │
 ├── app/
@@ -200,3 +201,4 @@ If you want, next we can:
 
 
 Your move.
+
