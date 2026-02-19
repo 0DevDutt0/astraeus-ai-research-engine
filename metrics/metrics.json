@@ -1,0 +1,32 @@
+[
+    {
+        "timestamp": "2026-02-18T15:59:24.804716",
+        "topic": "Vision Transformers for Retinal Disease Detection",
+        "score": 8.0,
+        "iterations": 2
+    },
+    {
+        "timestamp": "2026-02-18T16:31:44.368760",
+        "topic": "Vision Transformers for Retinal Disease Detection",
+        "score": 8.0,
+        "iterations": 2
+    },
+    {
+        "timestamp": "2026-02-18T17:03:37.236781",
+        "topic": "Vision Transformers for Retinal Disease Detection",
+        "score": 7.0,
+        "iterations": 2
+    },
+    {
+        "timestamp": "2026-02-18T18:40:59.636008",
+        "topic": "Vision Transformers for Retinal Disease Detection",
+        "score": 8.0,
+        "iterations": 1
+    },
+    {
+        "timestamp": "2026-02-18T18:54:59.663799",
+        "topic": "Vision Transformers for Retinal Disease Detection",
+        "score": 8.0,
+        "iterations": 3
+    }
+]

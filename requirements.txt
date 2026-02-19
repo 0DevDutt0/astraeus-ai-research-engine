@@ -1,0 +1,11 @@
+crewai
+langchain
+chromadb
+sentence-transformers
+fastapi
+uvicorn
+python-dotenv
+streamlit
+pandas
+matplotlib
+litellm
