@@ -40,19 +40,37 @@ It exposes:
 ## 🏗 Architecture
 
 ### Multi-Agent Pipeline
-User Topic
-↓
-Research Agent
-↓
-Verification Agent
-↓
-Writer Agent
-↓
-Critic Agent
-↓
-Score Extraction + Weakness Analysis
-↓
-Iterative Refinement (if needed)
+```mermaid
+flowchart TD
+    A([🧑 User Topic]) --> B
+
+    B[🔍 Research Agent\nGathers relevant information\nfrom multiple sources]
+    B --> C
+
+    C[✅ Verification Agent\nFact-checks and validates\nresearch accuracy]
+    C --> D
+
+    D[✍️ Writer Agent\nSynthesizes research into\na structured article]
+    D --> E
+
+    E[🎯 Critic Agent\nEvaluates quality, clarity,\nand depth of the output]
+    E --> F
+
+    F{📊 Score Extraction\n+ Weakness Analysis}
+
+    F -- Score ≥ Threshold --> G([✅ Final Output])
+    F -- Score < Threshold --> H[🔄 Iterative Refinement]
+    H --> D
+
+    style A fill:#6366f1,color:#fff,stroke:none
+    style G fill:#22c55e,color:#fff,stroke:none
+    style F fill:#f59e0b,color:#fff,stroke:none
+    style H fill:#ef4444,color:#fff,stroke:none
+    style B fill:#1e293b,color:#94a3b8,stroke:#334155
+    style C fill:#1e293b,color:#94a3b8,stroke:#334155
+    style D fill:#1e293b,color:#94a3b8,stroke:#334155
+    style E fill:#1e293b,color:#94a3b8,stroke:#334155
+```
 
 ### Backend
 - FastAPI REST API
@@ -201,4 +219,5 @@ If you want, next we can:
 
 
 Your move.
+
 
