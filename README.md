@@ -84,18 +84,18 @@ Iterative Refinement (if needed)
 astraeus-ai/
 │
 ├── app/
-│ ├── agents/
-│ ├── crew/
-│ ├── evaluation/
-│ ├── memory/
-│ ├── api.py
+│   ├── agents/
+│   ├── crew/
+│   ├── evaluation/
+│   ├── memory/
+│   └── api.py
 │
 ├── dashboard/
-│ └── app.py
+│   └── app.py
 │
 ├── requirements.txt
 ├── README.md
-├── .gitignore
+└── .gitignore
 
 ---
 
@@ -197,5 +197,6 @@ If you want, next we can:
 - Add badges (Python, FastAPI, Streamlit)
 - Create a professional LinkedIn project post
 - Or level up Astraeus into v2 (RAG + memory + deployment)
+
 
 Your move.
