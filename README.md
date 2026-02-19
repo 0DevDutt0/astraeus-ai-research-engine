@@ -203,24 +203,7 @@ Personal upskilling project focused on building real-world AI systems architectu
 
 ## 📜 License
 MIT License
-# 🔥 This README Does 3 Important Things
 
-1. Positions you as a **systems engineer**, not a beginner.
-2. Explains architecture clearly.
-3. Makes recruiters immediately understand the depth.
-
----
-
-If you want, next we can:
-
-- Improve your GitHub repo description line
-- Add architecture diagram
-- Add badges (Python, FastAPI, Streamlit)
-- Create a professional LinkedIn project post
-- Or level up Astraeus into v2 (RAG + memory + deployment)
-
-
-Your move.
 
 
 
