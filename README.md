@@ -100,21 +100,23 @@ flowchart TD
 
 ## 📂 Project Structure
 
-astraeus-ai/
-│
-├── app/
-│   ├── agents/
-│   ├── crew/
-│   ├── evaluation/
-│   ├── memory/
-│   └── api.py
-│
-├── dashboard/
-│   └── app.py
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
+```
+User Topic
+    ↓
+Research Agent        →  Gathers information from multiple sources
+    ↓
+Verification Agent    →  Fact-checks and validates accuracy
+    ↓
+Writer Agent          →  Synthesizes into a structured report
+    ↓
+Critic Agent          →  Evaluates quality, clarity, and depth
+    ↓
+Score Extraction + Weakness Analysis
+    ↓
+Iterative Refinement  →  Loops back to Writer if score < threshold
+    ↓
+Final Output
+```
 
 ---
 
@@ -219,5 +221,6 @@ If you want, next we can:
 
 
 Your move.
+
 
 
