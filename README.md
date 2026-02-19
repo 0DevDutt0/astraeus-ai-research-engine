@@ -1,9 +1,3 @@
-Perfect.
-We’re going to write this like a serious AI systems engineer, not like a student.
-
-Below is a production-level README.md ready to paste into your GitHub repo.
-
-📄 README.md
 # 🧠 Astraeus AI  
 ### Autonomous Multi-Agent Research & Evaluation Engine
 
@@ -203,6 +197,7 @@ Personal upskilling project focused on building real-world AI systems architectu
 
 ## 📜 License
 MIT License
+
 
 
 
